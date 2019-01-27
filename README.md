@@ -4,7 +4,8 @@
 
 ## Hosted at
 
-- **now.sh:** [https://express-cors-request-proxy.now.sh](https://express-cors-request-proxy.now.sh)
+- **Now:** [https://express-cors-request-proxy.now.sh](https://express-cors-request-proxy.now.sh)
+- **Heroku:** [https://express-cors-request-proxy.herokuapp.com/](https://express-cors-request-proxy.herokuapp.com/)
 
 ## Package usage
 
