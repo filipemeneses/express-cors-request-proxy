@@ -1,0 +1,23 @@
+{
+  "name": "express-cors-request-proxy",
+  "version": "1.0.0",
+  "description": "[Express](https://github.com/expressjs/express/) proxy using [request](https://github.com/request/request) to allow serverless single pages applications.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
