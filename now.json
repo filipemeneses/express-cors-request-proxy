@@ -9,5 +9,5 @@
   "routes": [
     { "src": "/", "dest": "server.js" }
   ],
-  "alias": ["express-cors-request-proxy", "cors-proxy"]
+  "alias": ["express-cors-request-proxy"]
 }
