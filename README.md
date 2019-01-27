@@ -2,6 +2,10 @@
 
 [Express](https://github.com/expressjs/express/) proxy using [request](https://github.com/request/request).
 
+## Hosted at
+
+- **now.sh:** [https://express-cors-request-proxy.now.sh](https://express-cors-request-proxy.now.sh)
+
 ## Package usage
 
 ### Install
@@ -21,6 +25,8 @@ This API uses the library [request](https://github.com/request/request) options,
 
 > Default method is GET
 
+### Success response
+
 ```
 {
  "url": "https://github.com/filipemeneses"
@@ -37,3 +43,22 @@ The response will be:
 ```
 
 > You can use [Cheerio](https://github.com/cheeriojs/cheerio) to parse HTML to use as "jQuery-like"
+
+### Error response
+
+If it fails it will print (consider invalid options):
+
+```
+{
+  "method": "GET"
+}
+```
+
+The response will return the stack:
+
+```
+{
+  "ok": false,
+  "error": "Error: options.uri is a required argument..."
+}
+```
